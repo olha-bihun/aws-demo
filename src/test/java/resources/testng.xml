@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="aws-demo" verbose="1" thread-count="1">
+
+  <test name="Test App Test ">
+    <classes>
+      <class name="com.demo.tests.InputValidation"/>
+    </classes>
+  </test>
+  <test name="Test App Test2 ">
+    <classes>
+      <class name="com.demo.tests.LoggingNegative"/>
+    </classes>
+  </test>
+  <test name="Test App Test 3 ">
+    <classes>
+      <class name="com.demo.tests.LoggingPositive"/>
+    </classes>
+  </test>
+</suite>
